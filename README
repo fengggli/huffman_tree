@@ -8,7 +8,7 @@ input file:
     path:
         freq.txt
     content:
-        contains only characters form standard ASCII code, with its frequency in text
+        contains only characters form standard ASCII code, with its frequency in text, ordering by ascii value
     example:
         LF 2
         . 1
@@ -22,7 +22,7 @@ output file:
     path: 
         codetable.txt
     content:
-        charaters from standard ASCii code, with its huffman encoding 
+        charaters from standard ASCii code, with its huffman encoding, ordering by ascii value 
     example:
         LF 1100
         . 11010
