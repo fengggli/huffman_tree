@@ -20,7 +20,7 @@ class Node{
         string get_string ()const;
 
         int get_freq() const{return freq;};
-        int set_freq(int freq) {this->freq = freq;}
+        void set_freq(int freq) {this->freq = freq;}
 
         // set the encoding for this node
         void set_enc(string tmp){this->enc = tmp;}
