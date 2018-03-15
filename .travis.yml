@@ -1,0 +1,16 @@
+language: cpp
+
+compiler:
+  - gcc
+
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: 
+  - make
+
+after_script:
+  - ./Huffman freq.txt/freq.txt
+
