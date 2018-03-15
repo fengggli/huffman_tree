@@ -2,9 +2,12 @@ Program 3: Huffman tree implementation
 CSCI 58000 Introduction of Algorithm
 Author: Feng Li, CIS Department, IUPUI
 
+[![Build Status](https://travis-ci.org/fengggli/huffman_tree.svg?branch=master)](https://travis-ci.org/fengggli/huffman_tree)
+
 use Huffman tree to encoding a cleartext file
 
-input file:
+# input file:
+```
     path:
         freq.txt
     content:
@@ -17,8 +20,10 @@ input file:
         d 5
         e 14
         f 2
+```
     
-output file:
+# output file:
+```
     path: 
         codetable.txt
     content:
@@ -31,5 +36,6 @@ output file:
         d 101
         e 0
         f 11011
+```
     
     
